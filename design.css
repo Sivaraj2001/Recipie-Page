@@ -1,0 +1,47 @@
+.omelette {
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(247, 231, 207);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 600px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background-color: whitesmoke;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h2 {
+  color: rgb(98, 41, 41);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+table td {
+  color: rgb(98, 41, 41);
+  font-weight: bold;
+}
+ol {
+  margin-top: 10px;
+  line-height: 1.5;
+}
